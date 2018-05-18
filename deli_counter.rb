@@ -9,5 +9,6 @@ def line(katz_deli)
     katz_deli.each_with_index do | name, index |
       line_str + " #{index}. #{name}"
     end
+    puts line_str
   end
 end
